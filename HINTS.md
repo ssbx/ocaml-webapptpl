@@ -20,16 +20,12 @@ A évaluer d'urgence:
 
 ## tests/branches/templates
 
-### serveurs/outils/exemples
-
-- mirage-seal
-- mirage-www
 
 ### front-end
 
 - dream
-- eliom ("sinatra like")
-- opium
+- eliom
+- opium ("sinatra like")
 - sihl
 
 ### back-end
@@ -48,6 +44,12 @@ A évaluer d'urgence:
   - reason-react
   - spin (generateur de projets Reason/Ocaml)
 - vdom (voir opam eml_playground_web, elm_playground_web)
+
+### serveurs/outils/exemples
+
+- mirage-seal
+- mirage-www
+
 
 ## libs secu
 
