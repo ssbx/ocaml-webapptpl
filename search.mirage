@@ -1,0 +1,383 @@
+# Packages matching: match(*mirage*)
+# Name                           # Installed  # Synopsis
+aarch64-esperanto                --           An OCaml compiler with Cosmopolitan
+aio                              --           Linux kernel AIO access library for ocaml
+albatross                        --           Albatross - orchestrate and manage MirageOS unikernels with Solo5
+alcotest                         1.8.0        Logo](https://raw.githubusercontent.com/mirage/alcotest/master/alcotest-logo.png)
+alcotest-mirage                  --           Mirage implementation for Alcotest
+arp                              3.1.1        Address Resolution Protocol purely in OCaml
+arp-mirage                       --           Address Resolution Protocol for MirageOS
+asn1-combinators                 0.3.2        Embed typed ASN.1 grammars in OCaml
+awa-mirage                       --           SSH implementation in OCaml
+base64                           3.5.1        Base64 encoding for OCaml
+ca-certs                         1.0.0        Detect root CA certificates from the operating system
+ca-certs-nss                     3.107        X.509 trust anchors extracted from Mozilla's NSS
+caldav                           --           A CalDAV server
+capnp-rpc-mirage                 --           Cap'n Proto is a capability-based RPC system with bindings for many languages
+caqti-dynload                    --           Dynamic linking of Caqti drivers using findlib.dynload
+caqti-mirage                     2.1.2        MirageOS support for Caqti including TLS
+cdrom                            --           Query the state and contents of CDROM devices under Linux.
+certify                          --           CLI utilities for simple X509 certificate manipulation
+chamelon                         --           Subset of littlefs filesystem fulfilling MirageOS KV
+channel                          --           MirageOS channels
+charrua                          --           DHCP wire frame encoder and decoder
+charrua-client                   --           DHCP client implementation
+charrua-client-lwt               --           A DHCP client using lwt as effectful layer
+charrua-client-mirage            --           A DHCP client for MirageOS
+charrua-core                     --           DHCP wire frame encoder and decoder
+charrua-server                   --           DHCP server
+charrua-unix                     --           Unix DHCP daemon
+checkseum                        0.5.2        Checkseum
+cmdliner-stdlib                  --           A collection of cmdliner terms to control OCaml runtime parameters
+cohttp                           5.3.0        An OCaml library for HTTP clients and servers
+cohttp-async                     --           CoHTTP implementation for the Async concurrency library
+cohttp-lwt                       5.3.0        CoHTTP implementation using the Lwt concurrency library
+cohttp-lwt-jsoo                  5.3.0        CoHTTP implementation for the Js_of_ocaml JavaScript compiler
+cohttp-lwt-unix                  5.3.0        CoHTTP implementation for Unix and Windows using Lwt
+cohttp-mirage                    --           CoHTTP implementation for the MirageOS unikernel
+cohttp-top                       --           CoHTTP toplevel pretty printers for HTTP types
+conan                            --           Identify type of your file (such as the MIME type)
+conan-cli                        --           Identify type of your file (such as the MIME type)
+conan-lwt                        --           Identify type of your file (such as the MIME type)
+conan-unix                       --           Identify type of your file (such as the MIME type)
+conduit                          7.0.0        A network connection establishment library
+conduit-async                    --           A network connection establishment library for Async
+conduit-lwt                      7.0.0        A portable network connection establishment library using Lwt
+conduit-lwt-unix                 7.0.0        A network connection establishment library for Lwt_unix
+conduit-mirage                   --           A network connection establishment library for MirageOS
+conex-mirage-crypto              --           Establishing trust in community repositories: crypto provided via mirage-crypto
+conf-cosmopolitan                --           Virtual package relying on APE/Cosmopolitan
+cow                              --           Caml on the Web
+cowabloga                        --           Simple static blogging support
+crunch                           3.3.1        Convert a filesystem into a static OCaml module
+cstruct                          6.2.0        Access C-like structures directly from OCaml
+cstruct-async                    --           Access C-like structures directly from OCaml
+cstruct-lwt                      6.2.0        Access C-like structures directly from OCaml
+cstruct-sexp                     --           S-expression serialisers for C-like structures
+cstruct-unix                     --           Access C-like structures directly from OCaml
+ctypes                           --           Combinators for binding to C libraries without writing any C
+ctypes-foreign                   --           Dynamic access to foreign C libraries using Ctypes
+current-albatross-deployer       --           An ocurrent plugin to deploy MirageOS unikernels
+decompress                       1.5.3        Pure OCaml implementation of Zlib
+depyt                            --           Yet-an-other type combinator library
+digestif                         1.2.0        Hash algorithms in C and OCaml
+dirsp-proscript-mirage           --           Mirage crypto backed implementation of the ProScript Cryptography Library
+dkim-mirage                      --           Implementation of DKIM in OCaml for MirageOS
+dns                              9.1.0        DNS client and server implementation in pure OCaml
+dns-async                        --           DNS implementation using the Async concurrency framework
+dns-certify                      --           MirageOS let's encrypt certificate retrieval
+dns-client-mirage                9.1.0        DNS client API for MirageOS
+dns-lwt                          --           DNS implementation in portable Lwt
+dns-lwt-unix                     --           DNS implementation for Unix and Windows using Lwt_unix
+dns-mirage                       --           An opinionated Domain Name System (DNS) library
+dnscurve                         --           DNSCurve protocol for DNS queries over a secure channel
+dnssd                            --           DNS Service Discovery for macOS
+dockerfile                       --           Dockerfile eDSL in OCaml
+dockerfile-cmd                   --           Dockerfile eDSL -- generation support
+dockerfile-opam                  --           Dockerfile eDSL -- opam support
+docteur                          --           A simple read-only Key/Value from Git to MirageOS
+docteur-solo5                    --           A simple read-only Key/Value from Git to MirageOS
+docteur-unix                     --           A simple read-only Key/Value from Git to MirageOS
+dropbox                          --           Binding to the Dropbox Remote API
+duff                             0.5          LibXdiff implementation in OCaml
+dyntype                          --           syntax extension which makes OCaml types and values easier to manipulate programmatically
+emile                            1.1          [Images](https://youtube.com/watch?v=S70NaQqAfaw))
+encore                           0.8          Isomorphism between encoder & decoder
+eqaf                             0.10         Constant time equal function on `string`
+esperanto                        --           An OCaml compiler with Cosmopolitan
+esperanto-cosmopolitan           --           Cosmopolitan toolchain for OCaml compiler
+ethernet                         3.2.0        OCaml Ethernet (IEEE 802.3) layer, used in MirageOS
+ezirmin                          --           An easy interface on top of the Irmin library.
+ezjsonm                          --           Simple interface on top of the Jsonm JSON library
+ezjsonm-lwt                      --           Simple Lwt-based interface to the Jsonm JSON library
+ezxmlm                           --           Combinators for parsing and selection of XML structures
+farfadet                         --           A printf-like for [Faraday](https://github.com/inhabitedtype/faraday) library
+fat-filesystem                   --           Pure OCaml implementation of the FAT filesystem
+fd-send-recv                     --           Bindings for sendmsg/recvmsg that allow Unix.file_descrs to be sent and received over Unix domain sockets
+fiat-p256                        --           Primitives for Elliptic Curve Cryptography taken from Fiat
+functoria                        --           A DSL to organize functor applications
+functoria-runtime                --           Runtime support library for functoria-generated code
+git                              3.17.0       Git format and protocol in pure OCaml
+git-cohttp-mirage                --           A package to use HTTP-based ocaml-git with MirageOS backend
+git-kv                           0.1.2        A Mirage_kv implementation using git
+git-mirage                       --           A package to use ocaml-git with MirageOS backend
+git-paf                          --           A package to use HTTP-based ocaml-git with MirageOS backend
+github                           4.4.1        GitHub APIv3 OCaml library
+github-data                      4.4.1        GitHub APIv3 data library
+github-hooks                     --           GitHub API web hook listener library
+github-hooks-unix                --           GitHub API web hook listener library
+github-jsoo                      --           GitHub APIv3 JavaScript library
+github-unix                      --           GitHub APIv3 Unix library
+gitlab                           --           GitLab APIv4 OCaml library
+gluten-mirage                    --           Mirage support for gluten
+gpt                              --           A library to manipulate GUID Partition tables
+gptar                            --           GPT headers that are also valid tar headers
+h2-mirage                        --           Lwt support for h2
+happy-eyeballs-mirage            1.2.2        Connecting to a remote host via IP version 4 or 6 using Mirage
+hkdf                             --           HMAC-based Extract-and-Expand Key Derivation Function (RFC 5869)
+http-mirage-client               --           HTTP client for MirageOS
+httpun-mirage                    --           Mirage support for httpun
+httpun-ws-async                  --           Mirage support for httpun
+httpun-ws-mirage                 --           Mirage support for httpun
+hvsock                           --           Bindings for Hyper-V AF_VSOCK
+icalendar                        --           A library to parse and print the iCalendar (RFC 5545) format
+imagelib                         --           Library implementing parsing of image formats such as PNG, BMP, PPM
+io-page                          --           Support for efficient handling of I/O memory pages
+io-page-unix                     --           Support for efficient handling of I/O memory pages on Unix
+io-page-xen                      --           Support for efficient handling of I/O memory pages on Xen
+ipaddr                           5.6.0        A library for manipulation of IP (and MAC) address representations
+ipaddr-cstruct                   5.6.0        A library for manipulation of IP address representations using Cstructs
+ipaddr-sexp                      5.6.0        A library for manipulation of IP address representations using sexp
+irmin                            --           A distributed database that follows the same design principles as Git
+irmin-mirage                     --           MirageOS-compatible Irmin stores
+irmin-mirage-git                 --           MirageOS-compatible Irmin stores
+irmin-mirage-graphql             --           MirageOS-compatible Irmin stores
+irmin-watcher                    --           Portable Irmin watch backends using FSevents or Inotify
+iso-filesystem                   --           ISO9660 filesystem library
+jekyll-format                    --           Jekyll post parsing library
+jitsu                            --           A forwarding DNS server that automatically starts unikernels on demand
+letsencrypt-mirage               --           ACME implementation in OCaml for MirageOS
+libvhd                           --           OCaml bindings for the C library 'libvhd' which allows the manipulation
+libvirt                          --           Libvirt is a portable toolkit to interact with the virtualisation capabilities of Linux, Solaris and other operating systems.
+logs-syslog                      --           Logs reporter to syslog (UDP/TCP/TLS)
+macaddr                          5.6.0        A library for manipulation of MAC address representations
+macaddr-cstruct                  5.6.0        A library for manipulation of MAC address representations using Cstructs
+macaddr-sexp                     --           A library for manipulation of MAC address representations using sexp
+magic-mime                       1.3.1        Convert file extensions to MIME types
+mbr-format                       --           A simple library for manipulating Master Boot Records.
+mechaml                          --
+mehari-mirage                    --           Mehari IO implementation for MirageOS
+memcpy                           --           Safe and efficient copying between blocks of memory.
+memtrace-mirage                  --           Streaming client for Memprof using MirageOS API
+metrics-mirage                   --           Mirage backend for the Metrics library
+mimic-happy-eyeballs             --           A happy-eyeballs integration into mimic
+minima-theme                     --           OCaml port of the Jekyll Minima theme
+minios-xen                       --           A minimal OS for running under the Xen hypervisor
+mirage                           4.8.2        The MirageOS library operating system
+mirage-block                     --           Block signatures and implementations for MirageOS
+mirage-block-ccm                 --           AES-CCM encrypted Mirage Mirage_types.BLOCK storage
+mirage-block-combinators         --           Block signatures and implementations for MirageOS using Lwt
+mirage-block-lwt                 --           Block signatures and implementations for MirageOS using Lwt
+mirage-block-partition           --           Mirage block device partitioning
+mirage-block-ramdisk             --           In-memory BLOCK device for MirageOS
+mirage-block-solo5               --           Solo5 implementation of MirageOS block interface
+mirage-block-unix                --           MirageOS disk block driver for Unix
+mirage-block-xen                 --           MirageOS block driver for Xen that implements the blkfront/back protocol
+mirage-bootvar                   --           Boot time arguments for MirageOS
+mirage-bootvar-solo5             --           Solo5 implementation of MirageOS Bootvar interface
+mirage-bootvar-unix              --           Unix implementation of MirageOS Bootvar interface
+mirage-bootvar-xen               --           Handle boot-time arguments for Xen platform
+mirage-btrees                    --           An implementation of BTrees designed for use with MirageOS's BLOCK interface
+mirage-channel                   4.1.0        Buffered channels for MirageOS FLOW types
+mirage-channel-lwt               --           Buffered Lwt channels for MirageOS FLOW types
+mirage-clock                     4.2.0        Libraries and module types for portable clocks
+mirage-clock-freestanding        --           Paravirtual implementation of the MirageOS Clock interface
+mirage-clock-lwt                 --           Lwt-based implementation of the MirageOS Clock interface
+mirage-clock-solo5               --           Paravirtual implementation of the MirageOS Clock interface
+mirage-clock-unix                --           Unix-based implementation for the MirageOS Clock interface
+mirage-clock-xen                 --           A Mirage-compatible Clock library for Xen
+mirage-conduit                   --           MirageOS interface to network connections
+mirage-console                   --           Implementations of Mirage console devices
+mirage-console-lwt               --           Implementation of Mirage consoles using Lwt
+mirage-console-solo5             --           Solo5 implementation of MirageOS console interface
+mirage-console-unix              --           Implementation of Mirage consoles for Unix
+mirage-console-xen               --           Implementation of Mirage console for Xen
+mirage-console-xen-backend       --           Implementation of Mirage console backend for Xen
+mirage-console-xen-cli           --           Libraries for interacting with the Xen console command-line interface.
+mirage-console-xen-proto         --           Implementation of Mirage console protocol for Xen
+mirage-crypto                    1.1.0        Simple symmetric cryptography for the modern age
+mirage-crypto-ec                 1.1.0        Elliptic Curve Cryptography with primitives taken from Fiat
+mirage-crypto-entropy            --           Entropy source for MirageOS unikernels
+mirage-crypto-pk                 1.1.0        Simple public-key cryptography for the modern age
+mirage-crypto-rng                1.1.0        A cryptographically secure PRNG
+mirage-crypto-rng-async          --           Feed the entropy source in an Async-friendly way
+mirage-crypto-rng-eio            --           Feed the entropy source in an eio-friendly way
+mirage-crypto-rng-lwt            --           A cryptographically secure PRNG
+mirage-crypto-rng-miou-unix      --           Feed the entropy source in an miou.unix-friendly way
+mirage-crypto-rng-mirage         1.1.0        Entropy collection for a cryptographically secure PRNG
+mirage-device                    --           Abstract devices for MirageOS
+mirage-dns                       --           DNS implementation for the MirageOS unikernel framework
+mirage-entropy                   --           Entropy source for MirageOS unikernels
+mirage-entropy-unix              --           MirageOS entropy device
+mirage-entropy-xen               --           MirageOS entropy device
+mirage-flow                      4.0.2        Flow implementations and combinators for MirageOS
+mirage-flow-combinators          --           Flow implementations and combinators for MirageOS specialized to lwt
+mirage-flow-lwt                  --           Flow implementations and combinators for MirageOS specialized to lwt
+mirage-flow-rawlink              --           Expose rawlink interfaces as MirageOS flows
+mirage-flow-unix                 --           Flow implementations and combinators for MirageOS on Unix
+mirage-fs                        --           MirageOS signatures for filesystem devices
+mirage-fs-lwt                    --           MirageOS signatures for filesystem devices using Lwt
+mirage-fs-mem                    --           In-memory file system for for MirageOS
+mirage-fs-unix                   --           Passthrough filesystem for MirageOS on Unix
+mirage-git                       --           Virtual package to install the `git.mirage` libary
+mirage-http                      --           MirageOS-compatible implementation of the Cohttp interfaces
+mirage-http-unix                 --           MirageOS HTTP client and server driver for Unix
+mirage-irmin                     --           Virtual package to install Irmin with mirage support
+mirage-kv                        6.1.1        MirageOS signatures for key/value devices
+mirage-kv-lwt                    --           MirageOS signatures for key/value devices
+mirage-kv-mem                    --           In-memory key value store for MirageOS
+mirage-kv-unix                   --           Key-value store for MirageOS backed by Unix filesystem
+mirage-logs                      --           A reporter for the Logs library that writes log messages to stderr, using a Mirage `CLOCK` to add timestamps
+mirage-monitoring                --           Monitoring of MirageOS unikernels
+mirage-nat                       --           Mirage-nat is a library for network address translation to be used with MirageOS
+mirage-net                       4.0.0        Network signatures for MirageOS
+mirage-net-direct                --           TCP/IP networking stack in pure OCaml
+mirage-net-fd                    --           MirageOS network interfaces using raw sockets
+mirage-net-flow                  --           Build MirageOS network interfaces on top of MirageOS flows
+mirage-net-lwt                   --           Network signatures for MirageOS
+mirage-net-macosx                --           MacOS implementation of the Mirage_net_lwt interface
+mirage-net-socket                --           Socket-based networking stack compatible with Mirage
+mirage-net-solo5                 --           Solo5 implementation of MirageOS network interface
+mirage-net-unix                  --           Unix implementation of the Mirage_net_lwt interface
+mirage-net-xen                   --           Network device for reading and writing Ethernet frames via then Xen netfront/netback protocol
+mirage-no-solo5                  --           Virtual package conflicting with mirage-solo5
+mirage-no-xen                    --           Virtual package conflicting with mirage-xen
+mirage-os-shim                   --           Portable shim for MirageOS OS API
+mirage-profile                   --           Collect runtime profiling information in CTF format
+mirage-profile-unix              --           Collect runtime profiling information in CTF format
+mirage-profile-xen               --           Collect runtime profiling information in CTF format
+mirage-protocols                 --           MirageOS signatures for network protocols
+mirage-protocols-lwt             --           MirageOS signatures for network protocols
+mirage-qubes                     --           Implementations of various Qubes protocols for MirageOS
+mirage-qubes-ipv4                --           Implementations of IPv4 stack which reads configuration from QubesDB for MirageOS
+mirage-random                    --           Random-related devices for MirageOS
+mirage-random-stdlib             --           Random device implementation using the OCaml stdlib
+mirage-random-test               --           Stub random device implementation for testing
+mirage-runtime                   4.8.2        The base MirageOS runtime library, part of every MirageOS unikernel
+mirage-seal                      --           Serve static files over HTTPS, using Mirage+ocaml-TLS.
+mirage-solo5                     --           Solo5 core platform libraries for MirageOS
+mirage-stack                     --           MirageOS signatures for network stacks
+mirage-stack-lwt                 --           MirageOS signatures for network stacks
+mirage-tc                        --           MirageOS type-classes
+mirage-tcpip-unix                --           Userlevel TCP/IP stack
+mirage-time                      3.0.0        Time operations for MirageOS
+mirage-time-lwt                  --           Time operations for MirageOS with Lwt
+mirage-time-unix                 --           Time operations for MirageOS on Unix
+mirage-types                     --           Module type definitions for MirageOS applications
+mirage-types-lwt                 --           Lwt module type definitions for MirageOS applications
+mirage-unix                      --           Unix core platform libraries for MirageOS
+mirage-vnetif                    --           Virtual network interface and software switch for Mirage
+mirage-vnetif-stack              --           Vnetif implementation of mirage-stack for Mirage TCP/IP
+mirage-www                       --           MirageOS website (written with MirageOS)
+mirage-xen                       --           Xen core platform libraries for MirageOS
+mirage-xen-minios                --           Xen MiniOS guest operating system library
+mirage-xen-ocaml                 --           OCaml runtime compiled for the MirageOS Xen backend
+mirage-xen-posix                 --           MirageOS library for posix headers
+mirari                           --           MirageOS application builder
+mirror                           --           Mirror upstream OPAM package distribution files
+mstruct                          --           A mutable interface to Cstruct buffers
+multipart-form-data              --           Parser for ocaml [![Build Status](https://travis-ci.org/cryptosense/multipart-form-data.svg)](https://travis-ci.org/cryptosense/multipart-form-data)
+nbd                              --           Network Block Device (NBD) protocol implementation
+nbd-tool                         --           Network Block Device (NBD) protocol implementation
+nbd-unix                         --           Network Block Device (NBD) protocol implementation
+netchannel                       --           Network device for reading and writing Ethernet frames via then Xen netfront/netback protocol
+nocrypto                         --           Simpler crypto
+oasis-mirage                     --           This is a fork of OASIS with support for native output-obj.
+obi                              --           interface to OCaml Build Infrastructure
+ocaml-freestanding               --           Freestanding OCaml compiler
+ocaml-freestanding-cross-aarch64 --           Freestanding OCaml compiler
+ocaml-solo5                      --           OCaml cross-compiler to the freestanding Solo5 backend
+ocaml-solo5-cross-aarch64        --           OCaml cross-compiler to the freestanding 64-bit ARM Solo5 backend
+ocaml-variants                   --           Mirage compiler for xen
+ocaml-version                    3.7.2        Manipulate, parse and generate OCaml compiler version strings
+omd                              2.0.0~alpha4 A Markdown frontend in pure OCaml
+opam-ci                          --           Query the opam package build status
+opium_kernel                     --           Sinatra like web toolkit based on Lwt + Cohttp
+orm                              --           The ORM library provides a storage backend to persist ML values.
+paf                              --           HTTP/AF and MirageOS
+parse-argv                       --           Process strings into sets of command-line arguments
+pbkdf                            --           Password based key derivation functions (PBKDF) from PKCS#5
+pcap-format                      --           Decode and encode PCAP (packet capture) files
+pf-qubes                         --           QubesOS firewall ruleset handling library
+pgx_lwt_mirage                   --           Pgx using Lwt on Mirage for IO
+polyglot                         --           Filters to convert XHTML into polyglot HTML5
+ppx_cstruct                      --           Access C-like structures directly from OCaml
+ppx_deriving_rpc                 --           Ppx deriver for ocaml-rpc, a library to deal with RPCs in OCaml
+prometheus                       --           Client library for Prometheus monitoring
+prometheus-app                   --           Client library for Prometheus monitoring
+protocol-9p                      --           An implementation of the 9p protocol in pure OCaml
+protocol-9p-tool                 --           An implementation of the 9p protocol in pure OCaml
+protocol-9p-unix                 --           A Unix implementation of the 9p protocol in pure OCaml
+qcow                             --           Support for Qcow2 images
+qcow-format                      --           Read and write images in Qcow2 format
+qcow-tool                        --           A command-line tool for manipulating qcow2-formatted data
+qmp                              --           OCaml implementation of a Qemu Message Protocol (QMP) client
+radis                            --           Radix tree implementation
+resp-mirage                      --           Redis serialization protocol for MirageOS
+rfc1951                          --           Pure OCaml implementation of Zlib
+rpc                              --           A library to deal with RPCs in OCaml - meta-package
+rpclib                           --           A library to deal with RPCs in OCaml
+rpclib-async                     --           A library to deal with RPCs in OCaml - Async interface
+rpclib-html                      --           A library to deal with RPCs in OCaml - html documentation generator
+rpclib-js                        --           A library to deal with RPCs in OCaml - Bindings for js_of_ocaml
+rpclib-lwt                       --           A library to deal with RPCs in OCaml - Lwt interface
+salsa20                          --           Salsa20 family of encryption functions, in pure OCaml
+sendmail-mirage                  --           Implementation of the sendmail command over LWT
+shared-block-ring                --           A single-consumer single-producer queue on a block device
+shared-memory-ring               --           Shared memory rings for RPC and bytestream communications
+shared-memory-ring-lwt           --           Shared memory rings for RPC and bytestream communications using Lwt
+sodium                           --           Binding to libsodium UNAUDITED
+solo5                            --           Solo5 sandboxed execution environment
+solo5-bindings-hvt               --           Solo5 sandboxed execution environment (hvt target)
+solo5-bindings-muen              --           Solo5 sandboxed execution environment (muen target)
+solo5-bindings-spt               --           Solo5 sandboxed execution environment (spt target)
+solo5-bindings-virtio            --           Solo5 sandboxed execution environment (virtio target)
+solo5-bindings-xen               --           Solo5 sandboxed execution environment (xen target)
+solo5-cross-aarch64              --           Solo5 sandboxed execution environment
+solo5-kernel-muen                --           Solo5 sandboxed execution environment (muen target)
+solo5-kernel-ukvm                --           Solo5 sandboxed execution environment (ukvm target)
+solo5-kernel-virtio              --           Solo5 sandboxed execution environment (virtio target)
+swapfs                           --           Streaming temporary storage for Mirage OS
+tar                              --           Decode and encode tar format files in pure OCaml
+tar-eio                          --           Decode and encode tar format files using Eio
+tar-format                       --           Decode and encode tar files
+tar-mirage                       --           Read and write tar format files via MirageOS interfaces
+tar-unix                         --           Decode and encode tar format files from Unix
+tcpip                            8.2.0        OCaml TCP/IP networking stack, used in MirageOS
+tftp                             --           A TFTP library and Mirage unikernel
+tls                              1.0.4        Transport Layer Security purely in OCaml
+tls-async                        --           Transport Layer Security purely in OCaml, Async layer
+tls-eio                          --           Transport Layer Security purely in OCaml - Eio
+tls-lwt                          --           Transport Layer Security purely in OCaml, Lwt layer
+tls-miou-unix                    --           Transport Layer Security purely in OCaml, Miou+Unix layer
+tls-mirage                       1.0.4        Transport Layer Security purely in OCaml, MirageOS layer
+travis-senv                      --           Utility to manipulate Travis CI secure environment variables
+tuntap                           --           OCaml library for handling TUN/TAP devices
+typebeat                         --           Agnostic parser of the `Content-Type` in OCaml
+unix-errno                       --           Unix errno types, maps, and support
+unix-fcntl                       --           Unix fcntl.h types, maps, and support
+uri                              4.4.0        An RFC3986 URI/URL parsing library
+uri-bench                        --           Benchmarking package for ocaml-uri
+uri-re                           --           An RFC3986 URI/URL parsing library
+uri-sexp                         4.4.0        An RFC3986 URI/URL parsing library
+uspf                             --           SPF implementation in OCaml
+uspf-lwt                         --           SPF implementation in OCaml (with LWT)
+uspf-mirage                      --           SPF implementation in OCaml (with for Mirage)
+uspf-unix                        --           SPF implementation in OCaml
+varint                           --           A simple varint implementation modeled after the one found in Go's standard library.
+vchan                            --           Xen Vchan implementation
+vchan-unix                       --           Xen Vchan implementation
+vchan-xen                        --           Xen Vchan implementation
+vhd-format                       --           Pure OCaml library to read/write VHD format data
+vhd-format-lwt                   --           Lwt interface to read/write VHD format data
+vhd-tool                         --           A command-line tool to manipulate, transcode and stream .vhd format data.
+vmnet                            --           MacOS X `vmnet` NAT networking
+wamp                             --           The Web Application Messaging Protocol
+websocket                        --           Websocket library
+websocket-async                  --           Websocket library (Async)
+websocket-lwt                    --           Websocket library (Lwt)
+websocket-lwt-unix               --           Websocket library (Lwt)
+win-eventlog                     --           Log via the Windows event log from OCaml programs
+x509                             1.0.5        Public Key Infrastructure (RFC 5280, PKCS) purely in OCaml
+x86_64-esperanto                 --           An OCaml compiler with Cosmopolitan
+xen-api-client                   --           Xen-API client library for remotely-controlling an XCP or XenServer host.
+xen-evtchn                       --           Xen event channel interface for MirageOS
+xen-evtchn-unix                  --           Xen event channel interface for Linux
+xen-gnt                          --           Xen grant table bindings for OCaml
+xen-gnt-unix                     --           Xen grant table bindings for OCaml
+xenbigarray                      --           Portable Bigarray intended for embedded Xen use
+xenctrl                          --           Low-level Xen hypercall bindings.
+xenstore                         --           Xenstore protocol in pure OCaml
+xenstore_transport               --           Low-level libraries for connecting to a xenstore service on a xen host
+yaml                             --           Parse and generate YAML 1.1/1.2 files
+yaml-sexp                        --           Parse and generate YAML 1.1 files
