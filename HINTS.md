@@ -5,7 +5,7 @@ Obligatoire:
 - atdgen
 - yojson
 - toml
-- logs (ajout ppx_here)
+- logs (voir ppx_here,ppx_fail)
 - cmdliner
 - lwt
 
@@ -15,14 +15,20 @@ A évaluer d'urgence:
 - jsonschema2atd (json schema to data.mli)
 - tyxml
 - cow (helpers pour fichiers web: xml,css,http...)
+- orm
 
 
 ## tests/branches/templates
 
+### serveurs/outils/exemples
+
+- mirage-seal
+- mirage-www
+
 ### front-end
 
 - dream
-- eliom
+- eliom ("sinatra like")
 - opium
 - sihl
 
@@ -58,8 +64,17 @@ A évaluer d'urgence:
 - ocaml-hls (hls.js video player)
 - ocaml-js-video-players (inclusion video youtube,dailymotion,vimeo)
 
-## libs autre a evaluer
+## bus
 
 - amqp-client
 - kafka
+- wamp
 
+## DBs
+
+- caqti
+- ezirmin (irmin)
+
+## mails
+
+- sendmail-mirage (sendmail avec lwt)
