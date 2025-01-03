@@ -1,7 +1,8 @@
 (executable
  (name main)
  (public_name webapptpl)
- (libraries dream cmdliner toml))
+ (libraries dream cmdliner toml)
+ (preprocess (pps lwt_ppx)))
 
  ;;(libraries caqti-driver-sqlite3 dream)
  ;;(preprocess (pps lwt_ppx)))
