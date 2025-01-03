@@ -19,7 +19,7 @@
  (name webapptpl)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml)
+ (depends ocaml brr)
  (tags
   ("add topics" "to describe" your project)))
 
