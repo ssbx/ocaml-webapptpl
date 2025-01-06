@@ -21,11 +21,11 @@ clean:
 
 .PHONY: release
 release:
-	echo "release todo"
+	echo "todo release target"
 
 .PHONY: deploy
 deploy: release
-	echo "deploy todo"
+	echo "todo deploy target"
 	#cp ./webapptpl.service /etc/systemd/system/
 	#systemctl daemon-reload
 	#systemctl restart webapptpl

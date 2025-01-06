@@ -11,11 +11,14 @@ let error_template _error debug_info suggested_response =
   Lwt.return suggested_response
 
 let run listen secure =
-  Dream.info (fun log -> log "hello log");
+  let proto = if secure then "https" else "http" in
+  Dream.info (fun log -> log "Listening on %s://localhost:%i." proto listen);
   Dream.run 
     ~tls:secure 
     ~port:listen
     ~error_handler:(Dream.error_template error_template)
+    ~greeting:false
+    ~adjust_terminal:false
     @@ Dream.logger
     @@ Middlewares.Sync_print.apply
     @@ Middlewares.Lwt_count.apply
@@ -42,7 +45,7 @@ module App = struct
 
   let cfg_file =
     Arg.(
-      value & opt string "./config.toml" & info ["c"; "config-file"] 
+      value & opt string "./webapptpl.toml" & info ["c"; "config-file"] 
       ~docv:"CONFIG_FILE" 
       ~doc:"Config file options are read from")
 

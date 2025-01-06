@@ -7,11 +7,10 @@
 (source
  (github username/reponame))
 
-(authors "Author Name <author@example.com>")
+(authors "Sébastien Serre <ssbx@github.com>")
+(maintainers "Sébastien Serre <ssbx@github.com>")
 
-(maintainers "Maintainer Name <maintainer@example.com>")
-
-(license LICENSE)
+(license MIT)
 
 (documentation https://url/to/documentation)
 
@@ -19,8 +18,6 @@
  (name webapptpl)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dream cmdliner toml)
+ (depends ocaml dream cmdliner toml atdgen)
  (tags
   ("add topics" "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
