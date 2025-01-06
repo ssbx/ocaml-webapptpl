@@ -19,3 +19,16 @@ watch:
 clean:
 	dune clean
 
+.PHONY: release
+release:
+	echo "release todo"
+
+.PHONY: deploy
+deploy: release
+	echo "deploy todo"
+	#cp ./webapptpl.service /etc/systemd/system/
+	#systemctl daemon-reload
+	#systemctl restart webapptpl
+
+
+
