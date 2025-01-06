@@ -1,0 +1,6 @@
+# Dune.
+_build/
+
+# esbuild.
+node_modules/
+static/

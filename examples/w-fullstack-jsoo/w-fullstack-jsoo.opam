@@ -1,0 +1,16 @@
+opam-version: "2.0"
+
+depends: [
+  "ocaml" {>= "4.08.0"}
+  "dream"
+  "dune" {>= "2.0.0"}
+  "js_of_ocaml"
+  "js_of_ocaml-ppx"
+]
+
+synopsis: "One of the Dream examples"
+homepage: "https://github.com/aantron/dream"
+bug-reports: "https://github.com/aantron/dream/issues"
+author: "Anton Bachin <antonbachin@yahoo.com>"
+license: "MIT"
+maintainer: "Anton Bachin <antonbachin@yahoo.com>"
