@@ -19,4 +19,4 @@
 
 curl http://localhost:8080/templates
 curl http://localhost:8080/templates/ll
-curl http://localhost:8080/static/test.txt
+curl http://localhost:8080/assets/test.txt

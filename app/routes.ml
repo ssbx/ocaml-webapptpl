@@ -16,5 +16,5 @@ let lst =
   @ [ Dream.get "/templates" Controllers.Templates.handle1 
     ; Dream.get "/templates/:word" Controllers.Templates.handle2 ]
 
-  @ [ Dream.get "/static/**" Controllers.Static.handle 
-    ; Dream.get "/favicon.ico" Controllers.Static.handle ]
+  @ [ Dream.get "/assets/**" Controllers.Assets.handle 
+    ; Dream.get "/favicon.ico" Controllers.Assets.handle ]
