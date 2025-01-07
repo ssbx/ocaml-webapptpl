@@ -1,0 +1,7 @@
+(include_subdirs no)
+
+(executable
+ (name main)
+ (public_name webapptpl)
+ (libraries app))
+

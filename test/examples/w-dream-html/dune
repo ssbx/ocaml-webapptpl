@@ -1,3 +1,0 @@
-(executable
- (name html)
- (libraries dream-html))

@@ -1,0 +1,6 @@
+(include_subdirs qualified)
+
+(library
+  (name app)
+  (libraries dream cmdliner toml)
+  (preprocess (pps lwt_ppx)))
