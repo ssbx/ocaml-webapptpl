@@ -4,14 +4,19 @@ open App
 
 let error_template _error debug_info suggested_response =
   let status = Dream.status suggested_response in
-  let code = Dream.status_to_int status
+  let code   = Dream.status_to_int status
   and reason = Dream.status_to_string status in
 
   Dream.set_header suggested_response "Content-Type" Dream.text_html;
-  Dream.set_body suggested_response (Templates.Error.render code reason debug_info);
+  Dream.set_body 
+    suggested_response 
+    (Templates.Error.render code reason debug_info);
   Lwt.return suggested_response
 
-let run listen secure =
+(* 
+ * Main function
+ *)
+let main listen secure =
   let proto = if secure then "https" else "http" in
   Dream.info (fun log -> log "Listening on %s://localhost:%i." proto listen);
   Dream.run 
@@ -26,8 +31,8 @@ let run listen secure =
     @@ Dream.router Config.Routes.lst
 
 (* 
-   Command line parsing, config file parsing and initialisation 
-*)
+ * Command line parsing, config file parsing and initialisation 
+ *)
 let start cfg_file =
   match Toml.Parser.from_filename cfg_file with
   | `Error (err, _) -> failwith err
@@ -39,7 +44,7 @@ let start cfg_file =
           Toml.Types.Table.find_opt (Toml.Min.key "secure") vals
         |> function | Some Toml.Types.TBool v -> v | _ -> false in
 
-      run listen secure 
+      main listen secure 
 
 module App = struct
   open Cmdliner
@@ -66,8 +71,8 @@ module App = struct
     in
   Cmd.v info server_t
 
-  let main () = exit (Cmd.eval command)
+  let start () = exit (Cmd.eval command)
 end
 
-let () = App.main ()
+let () = App.start ()
 
