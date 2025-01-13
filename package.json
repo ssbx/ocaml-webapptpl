@@ -1,0 +1,24 @@
+{
+  "name": "webapptpl",
+  "version": "1.0.0",
+  "description": "Instructions ============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssbx/ocaml-webapptpl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssbx/ocaml-webapptpl/issues"
+  },
+  "homepage": "https://github.com/ssbx/ocaml-webapptpl#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "postcss-cli": "^7.1.2"
+  }
+}

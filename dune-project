@@ -1,26 +1,10 @@
-(lang dune 3.17)
+(lang dune 3.14)
 
-(name webapptpl)
+(dialect
+ (name "eliom-server")
+ (implementation (extension "eliom"))
+ (interface (extension "eliomi")))
 
-(generate_opam_files true)
+(wrapped_executables false)
 
-(source
- (github username/reponame))
-
-(authors "Author Name <author@example.com>")
-
-(maintainers "Maintainer Name <maintainer@example.com>")
-
-(license LICENSE)
-
-(documentation https://url/to/documentation)
-
-(package
- (name webapptpl)
- (synopsis "A short synopsis")
- (description "A longer description")
- (depends ocaml)
- (tags
-  ("add topics" "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/reference/dune-project/index.html
+(formatting (enabled_for ocaml "eliom-server"))
