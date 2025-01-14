@@ -2,6 +2,8 @@
 #           GLOBAL MAKEFILE
 #----------------------------------------------------------------------
 
+run: test.opt
+
 # Local settings (optional). See Makefile.local.example for an example.
 # WARNING: do not commit to a repository!
 -include Makefile.local
