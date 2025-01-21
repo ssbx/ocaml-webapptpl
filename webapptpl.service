@@ -1,0 +1,16 @@
+[Unit]
+Description=Dream systemd example
+After=network.target
+
+[Service]
+Type=simple
+User=app
+Restart=on-failure
+RestartSec=1
+StandardOutput=journal
+WorkingDirectory=/var/lib/myapptpl
+ExecStart=/var/lib/myapptpl/bin/myapptpl
+AmbientCapabilities=CAP_NET_BIND_SERVICE
+
+[Install]
+WantedBy=multi-user.target
