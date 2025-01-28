@@ -71,6 +71,7 @@ let packages =
   ; package "json-data-encoding"
   ; package "data-encoding"
   ; package "ezjsonm"
+  ; package "mirage-random-stdlib"
   ; package "brr" ~build:true ~scope:`Switch
   ]
 
