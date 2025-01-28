@@ -1,5 +1,5 @@
-(** This is the main file if you are using static linking without config file.
- *)
+(** This is the main file if you are using static linking 
+    without config file. *)
 
 module%shared Webapptpl = Webapptpl
 
