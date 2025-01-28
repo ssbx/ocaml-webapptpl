@@ -1,9 +1,9 @@
-(dirs tools client gen assets static local)
+(dirs assets client gen tools static local)
 
 (library
  (name webapptpl)
  (modules
-  (:standard \ Webapptpl_main))
+  (:standard \ Main))
  (libraries eliom.server ocsipersist-sqlite ocsipersist-sqlite.settings)
  (library_flags
   (:standard -linkall))
@@ -27,7 +27,7 @@
    )))
 
 (executables
- (names webapptpl_main)
+ (names main)
  (public_names webapptpl)
  (modes
   (byte exe)
@@ -37,7 +37,7 @@
   ocsipersist-sqlite
   ocsigenserver.ext.staticmod
   webapptpl)
- (modules Webapptpl_main)
+ (modules Main)
  (preprocess
   (pps
    lwt_ppx
@@ -121,8 +121,8 @@
  (alias webapptpl)
  (deps
   webapptpl.cma
-  webapptpl_main.bc
-  webapptpl_main.exe
+  main.bc
+  main.exe
   client/webapptpl.bc
   client/webapptpl.bc.js
   tools/check_modules.ml)
